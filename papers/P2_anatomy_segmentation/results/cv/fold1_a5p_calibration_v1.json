@@ -1,0 +1,110 @@
+{
+ "arm": "A5p",
+ "alpha": 0.05,
+ "delta": 0.1,
+ "source": "papers/P2_anatomy_segmentation/results/cv/fold1_a5p_val_v1.json",
+ "test_accessed": false,
+ "seeds": {
+  "11": {
+   "abdominal_wall": {
+    "lambda": 0.0,
+    "n_calibration": 349,
+    "alpha": 0.05,
+    "delta": 0.1,
+    "thresholds_tested": 202,
+    "calibration_risk": 0.017191977077363897,
+    "score": "presence_probability"
+   },
+   "colon": {
+    "lambda": 0.88,
+    "n_calibration": 356,
+    "alpha": 0.05,
+    "delta": 0.1,
+    "thresholds_tested": 27,
+    "calibration_risk": 0.028089887640449437,
+    "score": "presence_probability"
+   },
+   "inferior_mesenteric_artery": {
+    "lambda": 0.0,
+    "n_calibration": 706,
+    "alpha": 0.05,
+    "delta": 0.1,
+    "thresholds_tested": 202,
+    "calibration_risk": 0.029745042492917848,
+    "score": "presence_probability"
+   },
+   "intestinal_veins": {
+    "lambda": 0.0,
+    "n_calibration": 677,
+    "alpha": 0.05,
+    "delta": 0.1,
+    "thresholds_tested": 202,
+    "calibration_risk": 0.0,
+    "score": "presence_probability"
+   },
+   "liver": {
+    "lambda": 0.0,
+    "n_calibration": 620,
+    "alpha": 0.05,
+    "delta": 0.1,
+    "thresholds_tested": 202,
+    "calibration_risk": 0.0016129032258064516,
+    "score": "presence_probability"
+   },
+   "pancreas": {
+    "lambda": 0.0,
+    "n_calibration": 692,
+    "alpha": 0.05,
+    "delta": 0.1,
+    "thresholds_tested": 202,
+    "calibration_risk": 0.001445086705202312,
+    "score": "presence_probability"
+   },
+   "small_intestine": {
+    "lambda": 0.985,
+    "n_calibration": 557,
+    "alpha": 0.05,
+    "delta": 0.1,
+    "thresholds_tested": 6,
+    "calibration_risk": 0.03231597845601436,
+    "score": "presence_probability"
+   },
+   "spleen": {
+    "lambda": 0.0,
+    "n_calibration": 691,
+    "alpha": 0.05,
+    "delta": 0.1,
+    "thresholds_tested": 202,
+    "calibration_risk": 0.01447178002894356,
+    "score": "presence_probability"
+   },
+   "stomach": {
+    "lambda": 0.0,
+    "n_calibration": 600,
+    "alpha": 0.05,
+    "delta": 0.1,
+    "thresholds_tested": 202,
+    "calibration_risk": 0.011666666666666667,
+    "score": "presence_probability"
+   },
+   "ureter": {
+    "lambda": 0.0,
+    "n_calibration": 763,
+    "alpha": 0.05,
+    "delta": 0.1,
+    "thresholds_tested": 202,
+    "calibration_risk": 0.0,
+    "score": "presence_probability"
+   },
+   "vesicular_glands": {
+    "lambda": 0.0,
+    "n_calibration": 763,
+    "alpha": 0.05,
+    "delta": 0.1,
+    "thresholds_tested": 202,
+    "calibration_risk": 0.001310615989515072,
+    "score": "presence_probability"
+   }
+  }
+ }
+}

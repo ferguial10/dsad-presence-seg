@@ -1,0 +1,123 @@
+{
+ "splits": [
+  "train",
+  "val"
+ ],
+ "per_structure": {
+  "abdominal_wall": {
+   "rows": 922,
+   "presence_0": 3,
+   "empty_masks": 0,
+   "disagreement": 0.0032537960954446853
+  },
+  "colon": {
+   "rows": 1066,
+   "presence_0": 0,
+   "empty_masks": 0,
+   "disagreement": 0.0
+  },
+  "inferior_mesenteric_artery": {
+   "rows": 816,
+   "presence_0": 0,
+   "empty_masks": 0,
+   "disagreement": 0.0
+  },
+  "intestinal_veins": {
+   "rows": 785,
+   "presence_0": 1,
+   "empty_masks": 0,
+   "disagreement": 0.0012738853503184713
+  },
+  "liver": {
+   "rows": 779,
+   "presence_0": 1,
+   "empty_masks": 0,
+   "disagreement": 0.0012836970474967907
+  },
+  "pancreas": {
+   "rows": 858,
+   "presence_0": 0,
+   "empty_masks": 0,
+   "disagreement": 0.0
+  },
+  "small_intestine": {
+   "rows": 890,
+   "presence_0": 4,
+   "empty_masks": 0,
+   "disagreement": 0.0044943820224719105
+  },
+  "spleen": {
+   "rows": 865,
+   "presence_0": 0,
+   "empty_masks": 0,
+   "disagreement": 0.0
+  },
+  "stomach": {
+   "rows": 1095,
+   "presence_0": 0,
+   "empty_masks": 0,
+   "disagreement": 0.0
+  },
+  "ureter": {
+   "rows": 963,
+   "presence_0": 0,
+   "empty_masks": 0,
+   "disagreement": 0.0
+  },
+  "vesicular_glands": {
+   "rows": 0,
+   "presence_0": 0,
+   "empty_masks": 0,
+   "disagreement": null
+  }
+ },
+ "overall_disagreement": 0.0009956853634251576,
+ "examples": [
+  {
+   "frame_md5": "f50f071fe46dd60837a76b03734abafa",
+   "row_from": "intestinal_veins/33",
+   "structure": "intestinal_veins"
+  },
+  {
+   "frame_md5": "be3d16120c460bd37ce91528f4c20902",
+   "row_from": "abdominal_wall/07",
+   "structure": "abdominal_wall"
+  },
+  {
+   "frame_md5": "0f78d16984734c55aed726af34ba3170",
+   "row_from": "liver/34",
+   "structure": "liver"
+  },
+  {
+   "frame_md5": "3112c4a7f270e3453f0d6e84f727b0b8",
+   "row_from": "abdominal_wall/39",
+   "structure": "abdominal_wall"
+  },
+  {
+   "frame_md5": "a3e97b354eca50f342834aa66ac28602",
+   "row_from": "small_intestine/55",
+   "structure": "small_intestine"
+  },
+  {
+   "frame_md5": "bdfb57eae8d317966e298ad4e37cff5e",
+   "row_from": "small_intestine/56",
+   "structure": "small_intestine"
+  },
+  {
+   "frame_md5": "0d5b89064afd8192a605fd022e626484",
+   "row_from": "small_intestine/57",
+   "structure": "small_intestine"
+  },
+  {
+   "frame_md5": "4ea14ae9952113357e4c9ce1b40d0843",
+   "row_from": "abdominal_wall/55",
+   "structure": "abdominal_wall"
+  },
+  {
+   "frame_md5": "1f0fab12d5436875f4e1825f9b291b7f",
+   "row_from": "small_intestine/55",
+   "structure": "small_intestine"
+  }
+ ],
+ "test_accessed": false
+}

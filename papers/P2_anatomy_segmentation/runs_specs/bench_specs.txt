@@ -1,0 +1,4 @@
+bench_deeplab_all --structures all --use-absent --epochs 1 --val-every 1
+bench_dinov2B --structures all --use-absent --model dinov2_base_lora16 --epochs 1 --val-every 1
+bench_dinov2L --structures all --use-absent --model dinov2_large_lora16 --batch-size 4 --epochs 1 --val-every 1
+bench_resume_ureter --structures ureter --loss bce --scheduler step09 --epochs 3 --val-every 1 --time-budget-min 1.5

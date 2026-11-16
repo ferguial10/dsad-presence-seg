@@ -1,0 +1,465 @@
+{
+  "kind": "p2_endovis18_challenge_metric_rescoring",
+  "version": 1,
+  "post_hoc_diagnostic": true,
+  "training_or_selection_performed": false,
+  "script_sha256": "a1efef1bbb29968f7cef182936922b48ed9df01744b90eaaa217165ef71cf3b0",
+  "inputs": {
+    "evidence": "90f9b2058135038385dbdaa10d00830a5d18f18cae83fb8a6d8382fd8fc4a22b",
+    "test_manifest": "ce78253ddd6e5ad4f15bf48c22269774af0a81c100808845471c7add8cda38bf"
+  },
+  "class_names": [
+    "background-tissue",
+    "instrument-shaft",
+    "instrument-clasper",
+    "instrument-wrist",
+    "kidney-parenchyma",
+    "covered-kidney",
+    "thread",
+    "clamps",
+    "suturing-needle",
+    "suction-instrument",
+    "intestine",
+    "ultrasound-probe"
+  ],
+  "record_count": 997,
+  "metric_definitions": {
+    "protocol": "per-sequence pooled confusion; foreground classes in reference or prediction; mean over sequences",
+    "challenge": "per-frame IoU over foreground classes present in the frame reference; mean over frames",
+    "reference_or_prediction_frame": "per-frame IoU over foreground classes in reference or prediction; mean over frames"
+  },
+  "candidates": [
+    {
+      "model_id": "rgb_cnn_deeplabv3_resnet50",
+      "seed": 11,
+      "candidate_id": "821ca356e53716750117d7e266b9fd6c59081e794e6c30c3754ceb9662a60f36",
+      "protocol_miou_stored": 0.32352748307988255,
+      "protocol_miou_reproduced": 0.32352748307988255,
+      "challenge_miou": 0.5736250784859231,
+      "challenge_miou_by_sequence": {
+        "test/seq_1": 0.6542317988907598,
+        "test/seq_2": 0.5287061848027035,
+        "test/seq_3": 0.8005620743063919,
+        "test/seq_4": 0.310676534175143
+      },
+      "reference_or_prediction_frame_miou": 0.4055524691516601,
+      "per_class": {
+        "instrument-shaft": {
+          "frames_present": 843,
+          "challenge_iou_mean_over_present_frames": 0.8540754211134861,
+          "frames_predicted_but_absent": 75
+        },
+        "instrument-clasper": {
+          "frames_present": 875,
+          "challenge_iou_mean_over_present_frames": 0.5970449016431417,
+          "frames_predicted_but_absent": 91
+        },
+        "instrument-wrist": {
+          "frames_present": 822,
+          "challenge_iou_mean_over_present_frames": 0.6128648663256624,
+          "frames_predicted_but_absent": 26
+        },
+        "kidney-parenchyma": {
+          "frames_present": 949,
+          "challenge_iou_mean_over_present_frames": 0.5666382754685406,
+          "frames_predicted_but_absent": 41
+        },
+        "covered-kidney": {
+          "frames_present": 484,
+          "challenge_iou_mean_over_present_frames": 0.19760062824603764,
+          "frames_predicted_but_absent": 510
+        },
+        "thread": {
+          "frames_present": 102,
+          "challenge_iou_mean_over_present_frames": 0.48973414328428333,
+          "frames_predicted_but_absent": 480
+        },
+        "clamps": {
+          "frames_present": 69,
+          "challenge_iou_mean_over_present_frames": 0.7892875025861087,
+          "frames_predicted_but_absent": 126
+        },
+        "suturing-needle": {
+          "frames_present": 95,
+          "challenge_iou_mean_over_present_frames": 0.06178092607417507,
+          "frames_predicted_but_absent": 13
+        },
+        "suction-instrument": {
+          "frames_present": 0,
+          "challenge_iou_mean_over_present_frames": null,
+          "frames_predicted_but_absent": 117
+        },
+        "intestine": {
+          "frames_present": 225,
+          "challenge_iou_mean_over_present_frames": 0.4618820819624794,
+          "frames_predicted_but_absent": 440
+        },
+        "ultrasound-probe": {
+          "frames_present": 152,
+          "challenge_iou_mean_over_present_frames": 0.374054228946093,
+          "frames_predicted_but_absent": 89
+        }
+      }
+    },
+    {
+      "model_id": "rgb_cnn_deeplabv3_resnet50",
+      "seed": 23,
+      "candidate_id": "a7901f92601d771ca3fb08e558f8c0af04c42413ab86774c71da0cb8c315ca0d",
+      "protocol_miou_stored": 0.3219914079871051,
+      "protocol_miou_reproduced": 0.3219914079871051,
+      "challenge_miou": 0.5848383866787554,
+      "challenge_miou_by_sequence": {
+        "test/seq_1": 0.6402033346560789,
+        "test/seq_2": 0.5190575810870208,
+        "test/seq_3": 0.817243155415347,
+        "test/seq_4": 0.3626271263679115
+      },
+      "reference_or_prediction_frame_miou": 0.37946114211094595,
+      "per_class": {
+        "instrument-shaft": {
+          "frames_present": 843,
+          "challenge_iou_mean_over_present_frames": 0.8422634131399572,
+          "frames_predicted_but_absent": 83
+        },
+        "instrument-clasper": {
+          "frames_present": 875,
+          "challenge_iou_mean_over_present_frames": 0.5857522481502809,
+          "frames_predicted_but_absent": 115
+        },
+        "instrument-wrist": {
+          "frames_present": 822,
+          "challenge_iou_mean_over_present_frames": 0.6121501209534523,
+          "frames_predicted_but_absent": 19
+        },
+        "kidney-parenchyma": {
+          "frames_present": 949,
+          "challenge_iou_mean_over_present_frames": 0.5775265404845747,
+          "frames_predicted_but_absent": 48
+        },
+        "covered-kidney": {
+          "frames_present": 484,
+          "challenge_iou_mean_over_present_frames": 0.2505441336153048,
+          "frames_predicted_but_absent": 508
+        },
+        "thread": {
+          "frames_present": 102,
+          "challenge_iou_mean_over_present_frames": 0.474716481503304,
+          "frames_predicted_but_absent": 741
+        },
+        "clamps": {
+          "frames_present": 69,
+          "challenge_iou_mean_over_present_frames": 0.7785751631442485,
+          "frames_predicted_but_absent": 106
+        },
+        "suturing-needle": {
+          "frames_present": 95,
+          "challenge_iou_mean_over_present_frames": 0.04657195917333262,
+          "frames_predicted_but_absent": 7
+        },
+        "suction-instrument": {
+          "frames_present": 0,
+          "challenge_iou_mean_over_present_frames": null,
+          "frames_predicted_but_absent": 212
+        },
+        "intestine": {
+          "frames_present": 225,
+          "challenge_iou_mean_over_present_frames": 0.5515249255475119,
+          "frames_predicted_but_absent": 523
+        },
+        "ultrasound-probe": {
+          "frames_present": 152,
+          "challenge_iou_mean_over_present_frames": 0.3589920991627651,
+          "frames_predicted_but_absent": 201
+        }
+      }
+    },
+    {
+      "model_id": "rgb_cnn_deeplabv3_resnet50",
+      "seed": 37,
+      "candidate_id": "21e29095bafe3fa109e345f2a866535be7f51608b3267a476b8ff0ad277fed84",
+      "protocol_miou_stored": 0.31556427775826756,
+      "protocol_miou_reproduced": 0.31556427775826756,
+      "challenge_miou": 0.5741001630033571,
+      "challenge_miou_by_sequence": {
+        "test/seq_1": 0.6552908782676945,
+        "test/seq_2": 0.5269726016175985,
+        "test/seq_3": 0.8154641427327939,
+        "test/seq_4": 0.29834696226576596
+      },
+      "reference_or_prediction_frame_miou": 0.3937572959820443,
+      "per_class": {
+        "instrument-shaft": {
+          "frames_present": 843,
+          "challenge_iou_mean_over_present_frames": 0.8479693378854825,
+          "frames_predicted_but_absent": 81
+        },
+        "instrument-clasper": {
+          "frames_present": 875,
+          "challenge_iou_mean_over_present_frames": 0.6156498309297016,
+          "frames_predicted_but_absent": 67
+        },
+        "instrument-wrist": {
+          "frames_present": 822,
+          "challenge_iou_mean_over_present_frames": 0.6387682906315377,
+          "frames_predicted_but_absent": 29
+        },
+        "kidney-parenchyma": {
+          "frames_present": 949,
+          "challenge_iou_mean_over_present_frames": 0.55487052379618,
+          "frames_predicted_but_absent": 43
+        },
+        "covered-kidney": {
+          "frames_present": 484,
+          "challenge_iou_mean_over_present_frames": 0.18312897489482236,
+          "frames_predicted_but_absent": 500
+        },
+        "thread": {
+          "frames_present": 102,
+          "challenge_iou_mean_over_present_frames": 0.4609706006143777,
+          "frames_predicted_but_absent": 525
+        },
+        "clamps": {
+          "frames_present": 69,
+          "challenge_iou_mean_over_present_frames": 0.756670236558693,
+          "frames_predicted_but_absent": 180
+        },
+        "suturing-needle": {
+          "frames_present": 95,
+          "challenge_iou_mean_over_present_frames": 0.0284625951879928,
+          "frames_predicted_but_absent": 26
+        },
+        "suction-instrument": {
+          "frames_present": 0,
+          "challenge_iou_mean_over_present_frames": null,
+          "frames_predicted_but_absent": 167
+        },
+        "intestine": {
+          "frames_present": 225,
+          "challenge_iou_mean_over_present_frames": 0.4452043151179214,
+          "frames_predicted_but_absent": 422
+        },
+        "ultrasound-probe": {
+          "frames_present": 152,
+          "challenge_iou_mean_over_present_frames": 0.3636122063691712,
+          "frames_predicted_but_absent": 145
+        }
+      }
+    },
+    {
+      "model_id": "rgb_transformer_segformer_mit_b0",
+      "seed": 11,
+      "candidate_id": "652b4403363a6c7a53b77d07d0adb56c934e5f9521e7229d891ad6ff42ebf89c",
+      "protocol_miou_stored": 0.2999356729455777,
+      "protocol_miou_reproduced": 0.2999356729455777,
+      "challenge_miou": 0.5197477885824249,
+      "challenge_miou_by_sequence": {
+        "test/seq_1": 0.5391462367803767,
+        "test/seq_2": 0.5189692565292076,
+        "test/seq_3": 0.7600754851697388,
+        "test/seq_4": 0.26072227043592705
+      },
+      "reference_or_prediction_frame_miou": 0.3976468523885011,
+      "per_class": {
+        "instrument-shaft": {
+          "frames_present": 843,
+          "challenge_iou_mean_over_present_frames": 0.8047341402435482,
+          "frames_predicted_but_absent": 25
+        },
+        "instrument-clasper": {
+          "frames_present": 875,
+          "challenge_iou_mean_over_present_frames": 0.517058122022496,
+          "frames_predicted_but_absent": 112
+        },
+        "instrument-wrist": {
+          "frames_present": 822,
+          "challenge_iou_mean_over_present_frames": 0.524657993846647,
+          "frames_predicted_but_absent": 11
+        },
+        "kidney-parenchyma": {
+          "frames_present": 949,
+          "challenge_iou_mean_over_present_frames": 0.5322798206587598,
+          "frames_predicted_but_absent": 36
+        },
+        "covered-kidney": {
+          "frames_present": 484,
+          "challenge_iou_mean_over_present_frames": 0.22109945631433048,
+          "frames_predicted_but_absent": 463
+        },
+        "thread": {
+          "frames_present": 102,
+          "challenge_iou_mean_over_present_frames": 0.29618912882107723,
+          "frames_predicted_but_absent": 240
+        },
+        "clamps": {
+          "frames_present": 69,
+          "challenge_iou_mean_over_present_frames": 0.7462946323878329,
+          "frames_predicted_but_absent": 62
+        },
+        "suturing-needle": {
+          "frames_present": 95,
+          "challenge_iou_mean_over_present_frames": 0.0,
+          "frames_predicted_but_absent": 0
+        },
+        "suction-instrument": {
+          "frames_present": 0,
+          "challenge_iou_mean_over_present_frames": null,
+          "frames_predicted_but_absent": 241
+        },
+        "intestine": {
+          "frames_present": 225,
+          "challenge_iou_mean_over_present_frames": 0.4922608312657318,
+          "frames_predicted_but_absent": 252
+        },
+        "ultrasound-probe": {
+          "frames_present": 152,
+          "challenge_iou_mean_over_present_frames": 0.03814043039908729,
+          "frames_predicted_but_absent": 16
+        }
+      }
+    },
+    {
+      "model_id": "rgb_transformer_segformer_mit_b0",
+      "seed": 23,
+      "candidate_id": "d08ff9d7d504979496f3e7c36a3002da0177ca1d69a412dd162445a351aeb3c3",
+      "protocol_miou_stored": 0.3237269284890208,
+      "protocol_miou_reproduced": 0.3237269284890208,
+      "challenge_miou": 0.5578425391673397,
+      "challenge_miou_by_sequence": {
+        "test/seq_1": 0.6083662205002683,
+        "test/seq_2": 0.5373708321005385,
+        "test/seq_3": 0.7987832351883802,
+        "test/seq_4": 0.2866469625294374
+      },
+      "reference_or_prediction_frame_miou": 0.4410020340472847,
+      "per_class": {
+        "instrument-shaft": {
+          "frames_present": 843,
+          "challenge_iou_mean_over_present_frames": 0.8354065475248484,
+          "frames_predicted_but_absent": 42
+        },
+        "instrument-clasper": {
+          "frames_present": 875,
+          "challenge_iou_mean_over_present_frames": 0.5610877574520132,
+          "frames_predicted_but_absent": 111
+        },
+        "instrument-wrist": {
+          "frames_present": 822,
+          "challenge_iou_mean_over_present_frames": 0.5954661084734628,
+          "frames_predicted_but_absent": 20
+        },
+        "kidney-parenchyma": {
+          "frames_present": 949,
+          "challenge_iou_mean_over_present_frames": 0.5353736434529079,
+          "frames_predicted_but_absent": 34
+        },
+        "covered-kidney": {
+          "frames_present": 484,
+          "challenge_iou_mean_over_present_frames": 0.24272724949312247,
+          "frames_predicted_but_absent": 432
+        },
+        "thread": {
+          "frames_present": 102,
+          "challenge_iou_mean_over_present_frames": 0.3400114459754204,
+          "frames_predicted_but_absent": 184
+        },
+        "clamps": {
+          "frames_present": 69,
+          "challenge_iou_mean_over_present_frames": 0.7435044070005719,
+          "frames_predicted_but_absent": 21
+        },
+        "suturing-needle": {
+          "frames_present": 95,
+          "challenge_iou_mean_over_present_frames": 0.010839186899208491,
+          "frames_predicted_but_absent": 4
+        },
+        "suction-instrument": {
+          "frames_present": 0,
+          "challenge_iou_mean_over_present_frames": null,
+          "frames_predicted_but_absent": 129
+        },
+        "intestine": {
+          "frames_present": 225,
+          "challenge_iou_mean_over_present_frames": 0.5690717285932044,
+          "frames_predicted_but_absent": 247
+        },
+        "ultrasound-probe": {
+          "frames_present": 152,
+          "challenge_iou_mean_over_present_frames": 0.1756597011873053,
+          "frames_predicted_but_absent": 35
+        }
+      }
+    },
+    {
+      "model_id": "rgb_transformer_segformer_mit_b0",
+      "seed": 37,
+      "candidate_id": "d168a681c38bbfc489b553846503aa67d6923dadeed47052c9c21fd8622b04d5",
+      "protocol_miou_stored": 0.3220868178010653,
+      "protocol_miou_reproduced": 0.3220868178010653,
+      "challenge_miou": 0.5588305621601392,
+      "challenge_miou_by_sequence": {
+        "test/seq_1": 0.6127012401324525,
+        "test/seq_2": 0.5309133523799434,
+        "test/seq_3": 0.8013288199496232,
+        "test/seq_4": 0.2901624880742313
+      },
+      "reference_or_prediction_frame_miou": 0.42602996949369293,
+      "per_class": {
+        "instrument-shaft": {
+          "frames_present": 843,
+          "challenge_iou_mean_over_present_frames": 0.8266793650984205,
+          "frames_predicted_but_absent": 47
+        },
+        "instrument-clasper": {
+          "frames_present": 875,
+          "challenge_iou_mean_over_present_frames": 0.551348412620477,
+          "frames_predicted_but_absent": 111
+        },
+        "instrument-wrist": {
+          "frames_present": 822,
+          "challenge_iou_mean_over_present_frames": 0.5855600552264454,
+          "frames_predicted_but_absent": 57
+        },
+        "kidney-parenchyma": {
+          "frames_present": 949,
+          "challenge_iou_mean_over_present_frames": 0.5879375023268659,
+          "frames_predicted_but_absent": 46
+        },
+        "covered-kidney": {
+          "frames_present": 484,
+          "challenge_iou_mean_over_present_frames": 0.1846901652341827,
+          "frames_predicted_but_absent": 314
+        },
+        "thread": {
+          "frames_present": 102,
+          "challenge_iou_mean_over_present_frames": 0.39624628120557315,
+          "frames_predicted_but_absent": 372
+        },
+        "clamps": {
+          "frames_present": 69,
+          "challenge_iou_mean_over_present_frames": 0.8035152739798875,
+          "frames_predicted_but_absent": 84
+        },
+        "suturing-needle": {
+          "frames_present": 95,
+          "challenge_iou_mean_over_present_frames": 0.0053054696176593275,
+          "frames_predicted_but_absent": 4
+        },
+        "suction-instrument": {
+          "frames_present": 0,
+          "challenge_iou_mean_over_present_frames": null,
+          "frames_predicted_but_absent": 251
+        },
+        "intestine": {
+          "frames_present": 225,
+          "challenge_iou_mean_over_present_frames": 0.5605028439735517,
+          "frames_predicted_but_absent": 259
+        },
+        "ultrasound-probe": {
+          "frames_present": 152,
+          "challenge_iou_mean_over_present_frames": 0.1785107082124143,
+          "frames_predicted_but_absent": 30
+        }
+      }
+    }
+  ]
+}

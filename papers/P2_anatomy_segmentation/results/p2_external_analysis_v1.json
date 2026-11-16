@@ -1,0 +1,300 @@
+{
+ "cholecseg8k": {
+  "arms": {
+   "A1": {
+    "halluc/abdominal_wall": 1.0,
+    "iou/liver": 0.43698649945119344,
+    "iou/gi_tract": 0.10616516885561669,
+    "impossible/ureter": 0.9318043884220355,
+    "impossible/inferior_mesenteric_artery": 0.9782592203548086,
+    "impossible/intestinal_veins": 0.9844683706816061,
+    "impossible/vesicular_glands": 0.9939396591970121,
+    "impossible/spleen": 0.9906833566760039,
+    "iou/abdominal_wall": 0.454445087306791,
+    "halluc/gi_tract": 0.9924541444160669,
+    "iou/macro": 0.3312074013800173,
+    "halluc/macro": 0.9954337899543378,
+    "impossible/macro": 0.9758309990662932
+   },
+   "A1N": {
+    "halluc/abdominal_wall": 0.6103113804796674,
+    "iou/liver": 0.3044518473129084,
+    "iou/gi_tract": 0.08450289193495991,
+    "impossible/ureter": 0.9080246265172737,
+    "impossible/inferior_mesenteric_artery": 0.9604925303454716,
+    "impossible/intestinal_veins": 0.8350844712885154,
+    "impossible/vesicular_glands": 0.8982522175536881,
+    "impossible/spleen": 0.5949694600062247,
+    "iou/abdominal_wall": 0.41352248733694125,
+    "halluc/gi_tract": 0.9199269332002221,
+    "iou/macro": 0.27015182474374877,
+    "halluc/macro": 0.7268030256777577,
+    "impossible/macro": 0.8393646611422347
+   },
+   "A2": {
+    "halluc/abdominal_wall": 0.8532407407407407,
+    "iou/liver": 0.4535114659278433,
+    "iou/gi_tract": 0.1547442330047763,
+    "impossible/ureter": 0.781266048085901,
+    "impossible/inferior_mesenteric_artery": 0.8735848506069095,
+    "impossible/intestinal_veins": 0.8384191176470588,
+    "impossible/vesicular_glands": 0.917451563958917,
+    "impossible/spleen": 0.8463271767040148,
+    "iou/abdominal_wall": 0.4515569151320559,
+    "halluc/gi_tract": 0.9120449913577381,
+    "iou/macro": 0.35309626211936584,
+    "halluc/macro": 0.8443667554540842,
+    "impossible/macro": 0.8514097514005603
+   },
+   "A4": {
+    "halluc/abdominal_wall": 0.3314347825756678,
+    "iou/liver": 0.8128301754369172,
+    "iou/gi_tract": 0.22190274108352973,
+    "impossible/ureter": 0.0016942401960784313,
+    "impossible/inferior_mesenteric_artery": 0.0037530637254901958,
+    "impossible/intestinal_veins": 0.011098856209150328,
+    "impossible/vesicular_glands": 0.018394705104263925,
+    "impossible/spleen": 0.00958095043572985,
+    "iou/abdominal_wall": 0.5554741537316392,
+    "halluc/gi_tract": 0.48010166504521906,
+    "iou/macro": 0.5128349789430883,
+    "halluc/macro": 0.3995225719657201,
+    "impossible/macro": 0.008904363134142545
+   },
+   "A5p": {
+    "halluc/abdominal_wall": 0.2997417411874094,
+    "iou/liver": 0.8139809752799037,
+    "iou/gi_tract": 0.2530568472294877,
+    "impossible/ureter": 0.00042016806722689073,
+    "impossible/inferior_mesenteric_artery": 0.004575892857142857,
+    "impossible/intestinal_veins": 0.07337520424836602,
+    "impossible/vesicular_glands": 0.06466342787114845,
+    "impossible/spleen": 0.11560690943043883,
+    "iou/abdominal_wall": 0.7210013953399826,
+    "halluc/gi_tract": 0.24110414384981985,
+    "iou/macro": 0.5905515801295707,
+    "halluc/macro": 0.29519348600167095,
+    "impossible/macro": 0.0517283204948646
+   },
+   "A5p_ungated": {
+    "halluc/abdominal_wall": 0.35447661902200833,
+    "iou/liver": 0.8139809752799037,
+    "iou/gi_tract": 0.3184939467543752,
+    "impossible/ureter": 0.00042016806722689073,
+    "impossible/inferior_mesenteric_artery": 0.004575892857142857,
+    "impossible/intestinal_veins": 0.08963337418300654,
+    "impossible/vesicular_glands": 0.06466342787114845,
+    "impossible/spleen": 0.11560690943043883,
+    "iou/abdominal_wall": 0.7234015136340965,
+    "halluc/gi_tract": 0.5988285990491831,
+    "iou/macro": 0.6133486105534005,
+    "halluc/macro": 0.4986977762401777,
+    "impossible/macro": 0.05497995448179272
+   }
+  },
+  "contrasts": {
+   "iou/macro A5p - A1": {
+    "n_units": 13,
+    "mean_diff": 0.2593441787495534,
+    "ci95": [
+     0.20285087146959252,
+     0.31376936130100846
+    ]
+   },
+   "halluc/macro A5p - A1": {
+    "n_units": 6,
+    "mean_diff": -0.7002403039526669,
+    "ci95": [
+     -0.8674226070700918,
+     -0.5382764235831319
+    ]
+   },
+   "impossible/macro A5p - A1": {
+    "n_units": 17,
+    "mean_diff": -0.9241026785714287,
+    "ci95": [
+     -0.9489603262138189,
+     -0.8991878888013538
+    ]
+   },
+   "iou/macro A5p - A4": {
+    "n_units": 13,
+    "mean_diff": 0.0777166011864825,
+    "ci95": [
+     0.02941707242890865,
+     0.13050542350439753
+    ]
+   },
+   "halluc/macro A5p - A4": {
+    "n_units": 6,
+    "mean_diff": -0.10432908596404915,
+    "ci95": [
+     -0.29831506756328463,
+     0.1372810292305659
+    ]
+   },
+   "impossible/macro A5p - A4": {
+    "n_units": 17,
+    "mean_diff": 0.04282395736072206,
+    "ci95": [
+     0.025650898692810453,
+     0.061783834228135694
+    ]
+   },
+   "iou/macro A5p - A1N": {
+    "n_units": 13,
+    "mean_diff": 0.3203997553858219,
+    "ci95": [
+     0.2691161104715021,
+     0.3706692863840021
+    ]
+   },
+   "halluc/macro A5p - A1N": {
+    "n_units": 6,
+    "mean_diff": -0.4316095396760867,
+    "ci95": [
+     -0.6328174444090945,
+     -0.2539627913570298
+    ]
+   },
+   "impossible/macro A5p - A1N": {
+    "n_units": 17,
+    "mean_diff": -0.78763634064737,
+    "ci95": [
+     -0.8458111835706503,
+     -0.718611588663243
+    ]
+   },
+   "iou/macro A5p - A2": {
+    "n_units": 13,
+    "mean_diff": 0.23745531801020478,
+    "ci95": [
+     0.19472855056624372,
+     0.2822177181802214
+    ]
+   },
+   "halluc/macro A5p - A2": {
+    "n_units": 6,
+    "mean_diff": -0.5491732694524133,
+    "ci95": [
+     -0.8276615020107841,
+     -0.2658267302354732
+    ]
+   },
+   "impossible/macro A5p - A2": {
+    "n_units": 17,
+    "mean_diff": -0.7996814309056957,
+    "ci95": [
+     -0.8940521343954249,
+     -0.6886054198762839
+    ]
+   }
+  }
+ },
+ "endovis18": {
+  "arms": {
+   "A1": {
+    "halluc/intestine": 0.9455611441548017,
+    "iou/intestine": 0.6054911352679034,
+    "iou/macro": 0.6054911352679035,
+    "halluc/macro": 0.9455611441548017
+   },
+   "A1N": {
+    "halluc/intestine": 0.5372690809883541,
+    "iou/intestine": 0.5761567383081974,
+    "iou/macro": 0.5761567383081972,
+    "halluc/macro": 0.5372690809883541
+   },
+   "A2": {
+    "halluc/intestine": 0.7781170189704746,
+    "iou/intestine": 0.5284114461903345,
+    "iou/macro": 0.5284114461903345,
+    "halluc/macro": 0.7781170189704746
+   },
+   "A4": {
+    "halluc/intestine": 0.4909518411769806,
+    "iou/intestine": 0.6260015080697262,
+    "iou/macro": 0.6260015080697262,
+    "halluc/macro": 0.4909518411769807
+   },
+   "A5p": {
+    "halluc/intestine": 0.1335223802590411,
+    "iou/intestine": 0.43427649443421273,
+    "iou/macro": 0.43427649443421273,
+    "halluc/macro": 0.1335223802590411
+   },
+   "A5p_ungated": {
+    "halluc/intestine": 0.5558517173245995,
+    "iou/intestine": 0.5457442260648789,
+    "iou/macro": 0.5457442260648789,
+    "halluc/macro": 0.5558517173245995
+   }
+  },
+  "contrasts": {
+   "iou/macro A5p - A1": {
+    "n_units": 11,
+    "mean_diff": -0.17121464083369078,
+    "ci95": [
+     -0.29948509118304395,
+     -0.054180146563749094
+    ]
+   },
+   "halluc/macro A5p - A1": {
+    "n_units": 14,
+    "mean_diff": -0.8120387638957608,
+    "ci95": [
+     -0.8766131804947108,
+     -0.7433789201893217
+    ]
+   },
+   "iou/macro A5p - A4": {
+    "n_units": 11,
+    "mean_diff": -0.19172501363551342,
+    "ci95": [
+     -0.3049409464530573,
+     -0.09218301354609945
+    ]
+   },
+   "halluc/macro A5p - A4": {
+    "n_units": 14,
+    "mean_diff": -0.35742946091793965,
+    "ci95": [
+     -0.47672137310767804,
+     -0.23984063882299464
+    ]
+   },
+   "iou/macro A5p - A1N": {
+    "n_units": 11,
+    "mean_diff": -0.1418802438739845,
+    "ci95": [
+     -0.25978186614043525,
+     -0.027552717482518835
+    ]
+   },
+   "halluc/macro A5p - A1N": {
+    "n_units": 14,
+    "mean_diff": -0.4037467007293131,
+    "ci95": [
+     -0.5075014860355647,
+     -0.29465642910679096
+    ]
+   },
+   "iou/macro A5p - A2": {
+    "n_units": 11,
+    "mean_diff": -0.09413495175612185,
+    "ci95": [
+     -0.2147831514743998,
+     0.01567337341612874
+    ]
+   },
+   "halluc/macro A5p - A2": {
+    "n_units": 14,
+    "mean_diff": -0.6445946387114335,
+    "ci95": [
+     -0.7210153459447705,
+     -0.5608933608824517
+    ]
+   }
+  }
+ }
+}

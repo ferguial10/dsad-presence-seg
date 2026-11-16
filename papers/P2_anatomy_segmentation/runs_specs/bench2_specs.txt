@@ -1,0 +1,1 @@
+bench_a2_multihead --structures all --model deeplabv3_r50_coco_multihead --loss bce --scheduler step09 --epochs 1 --val-every 1

@@ -1,0 +1,3 @@
+A2_seed11 --manifest papers/P2_anatomy_segmentation/results/dsad_frame_manifest_v3.json --structures all --model deeplabv3_r50_coco_multihead --loss bce --scheduler step09 --epochs 100 --seed 11
+A2_seed23 --manifest papers/P2_anatomy_segmentation/results/dsad_frame_manifest_v3.json --structures all --model deeplabv3_r50_coco_multihead --loss bce --scheduler step09 --epochs 100 --seed 23
+A2_seed37 --manifest papers/P2_anatomy_segmentation/results/dsad_frame_manifest_v3.json --structures all --model deeplabv3_r50_coco_multihead --loss bce --scheduler step09 --epochs 100 --seed 37

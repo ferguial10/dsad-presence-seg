@@ -1,0 +1,16 @@
+runs/
+cache/
+logs/
+data/*
+!data/README.md
+__pycache__/
+*.pyc
+*.pt
+*.pth
+*.egg-info/
+papers/P2_anatomy_segmentation/manuscript/figures/
+papers/P2_anatomy_segmentation/manuscript/tables/
+papers/P2_anatomy_segmentation/results/*_native_v1.json
+papers/P2_anatomy_segmentation/results/*_external_v1.json
+papers/P2_anatomy_segmentation/results/dsad_frame_manifest_*.json
+papers/P2_anatomy_segmentation/results/cv/fold*_manifest.json

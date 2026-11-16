@@ -1,0 +1,1 @@
+bench_sam2 --structures all --use-absent --model sam2_baseplus_lora16 --epochs 1 --val-every 1

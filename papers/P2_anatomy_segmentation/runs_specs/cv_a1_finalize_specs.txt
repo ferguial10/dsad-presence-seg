@@ -1,0 +1,2 @@
+CV1_A1_ureter_seed11 --manifest papers/P2_anatomy_segmentation/results/cv/fold1_manifest.json --structures ureter --loss bce --scheduler step09 --lr 1e-4 --epochs 100 --seed 11
+CV3_A1_intestinal_veins_seed11 --manifest papers/P2_anatomy_segmentation/results/cv/fold3_manifest.json --structures intestinal_veins --loss bce --scheduler step09 --lr 1e-4 --epochs 100 --seed 11

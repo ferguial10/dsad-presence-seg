@@ -1,0 +1,1 @@
+smoke_dinov2L --structures all --model dinov2_large_lora16 --use-absent --epochs 1 --val-every 1 --batch-size 4 --seed 11

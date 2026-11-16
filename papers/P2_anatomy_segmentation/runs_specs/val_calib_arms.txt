@@ -1,0 +1,9 @@
+A1 runs/p2/A1_*_seed*
+A1N runs/p2/A1N_*_seed*
+A4 runs/p2/A4_seed*
+A6 runs/p2/A6_seed*
+AB_nolora runs/p2/AB_nolora_seed11
+AB_nohead runs/p2/AB_nohead_seed11
+AB_multilabel runs/p2/AB_multilabel_seed11
+AB_budget5 runs/p2/AB_budget5_seed11
+AB_budget10 runs/p2/AB_budget10_seed11

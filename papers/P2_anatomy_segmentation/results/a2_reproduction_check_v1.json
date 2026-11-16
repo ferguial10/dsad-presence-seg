@@ -1,0 +1,220 @@
+{
+ "prefix": "A2_",
+ "kind": "combined",
+ "tolerance": 0.05,
+ "mean_signed_diff": 0.03251233103760279,
+ "structures_within": 6,
+ "passed": false,
+ "test_accessed": false,
+ "structures": {
+  "abdominal_wall": {
+   "seeds": 3,
+   "iou_image_mean": 0.8315095740692758,
+   "seed_sd": 0.010602124363849282,
+   "iou_by_surgery": {
+    "21": 0.8695297701759657,
+    "26": 0.8290393151609239,
+    "3": 0.8020883478449857
+   },
+   "images_by_surgery": {
+    "3": 63,
+    "21": 52,
+    "26": 50
+   },
+   "kolbinger_val": 0.78,
+   "diff_val": 0.05150957406927581,
+   "kolbinger_test": 0.77,
+   "within_tolerance": false
+  },
+  "colon": {
+   "seeds": 3,
+   "iou_image_mean": 0.6907477257045666,
+   "seed_sd": 0.009264627449761554,
+   "iou_by_surgery": {
+    "21": 0.7228252944995236,
+    "26": 0.6404870539834446,
+    "3": 0.7080490624601851
+   },
+   "images_by_surgery": {
+    "3": 57,
+    "21": 57,
+    "26": 56
+   },
+   "kolbinger_val": 0.62,
+   "diff_val": 0.07074772570456656,
+   "kolbinger_test": 0.63,
+   "within_tolerance": false
+  },
+  "inferior_mesenteric_artery": {
+   "seeds": 3,
+   "iou_image_mean": 0.4115237356319991,
+   "seed_sd": 0.03825120233002325,
+   "iou_by_surgery": {
+    "21": 0.5079538539579698,
+    "26": 0.31068392898185787,
+    "3": 0.4203867289017637
+   },
+   "images_by_surgery": {
+    "3": 61,
+    "21": 54,
+    "26": 57
+   },
+   "kolbinger_val": 0.4,
+   "diff_val": 0.011523735631999099,
+   "kolbinger_test": 0.4,
+   "within_tolerance": true
+  },
+  "intestinal_veins": {
+   "seeds": 3,
+   "iou_image_mean": 0.5547068073394703,
+   "seed_sd": 0.014569768237474374,
+   "iou_by_surgery": {
+    "21": 0.6968415041606512,
+    "26": 0.5154038766300951,
+    "3": 0.45073640216632055
+   },
+   "images_by_surgery": {
+    "3": 61,
+    "21": 59,
+    "26": 52
+   },
+   "kolbinger_val": 0.48,
+   "diff_val": 0.07470680733947033,
+   "kolbinger_test": 0.35,
+   "within_tolerance": false
+  },
+  "liver": {
+   "seeds": 3,
+   "iou_image_mean": 0.551939103109648,
+   "seed_sd": 0.04934117056501937,
+   "iou_by_surgery": {
+    "21": 0.5786520183872218,
+    "26": 0.6845373297542613,
+    "3": 0.5232558888375136
+   },
+   "images_by_surgery": {
+    "3": 90,
+    "21": 47,
+    "26": 10
+   },
+   "kolbinger_val": 0.49,
+   "diff_val": 0.06193910310964801,
+   "kolbinger_test": 0.57,
+   "within_tolerance": false
+  },
+  "pancreas": {
+   "seeds": 3,
+   "iou_image_mean": 0.5309086734221437,
+   "seed_sd": 0.014039169490976371,
+   "iou_by_surgery": {
+    "21": 0.5676373808295487,
+    "26": 0.419224509987064,
+    "3": 0.5291878590669072
+   },
+   "images_by_surgery": {
+    "3": 61,
+    "21": 88,
+    "26": 28
+   },
+   "kolbinger_val": 0.49,
+   "diff_val": 0.04090867342214366,
+   "kolbinger_test": 0.23,
+   "within_tolerance": true
+  },
+  "small_intestine": {
+   "seeds": 3,
+   "iou_image_mean": 0.7869270232356022,
+   "seed_sd": 0.01648297721682431,
+   "iou_by_surgery": {
+    "21": 0.8322573831768983,
+    "26": 0.7614534957295418,
+    "3": 0.7710172462402886
+   },
+   "images_by_surgery": {
+    "3": 56,
+    "21": 50,
+    "26": 54
+   },
+   "kolbinger_val": 0.74,
+   "diff_val": 0.04692702323560216,
+   "kolbinger_test": 0.72,
+   "within_tolerance": true
+  },
+  "spleen": {
+   "seeds": 3,
+   "iou_image_mean": 0.5755373844868751,
+   "seed_sd": 0.042406195801498466,
+   "iou_by_surgery": {
+    "21": 0.8241108435637257,
+    "26": 0.5982630332374872,
+    "3": 0.3536424851682771
+   },
+   "images_by_surgery": {
+    "3": 64,
+    "21": 50,
+    "26": 78
+   },
+   "kolbinger_val": 0.57,
+   "diff_val": 0.00553738448687513,
+   "kolbinger_test": 0.69,
+   "within_tolerance": true
+  },
+  "stomach": {
+   "seeds": 3,
+   "iou_image_mean": 0.3018828981035297,
+   "seed_sd": 0.03780678864976714,
+   "iou_by_surgery": {
+    "21": 0.5452635389557378,
+    "26": 0.21169266594888828,
+    "3": 0.25385110026955715
+   },
+   "images_by_surgery": {
+    "3": 84,
+    "21": 44,
+    "26": 74
+   },
+   "kolbinger_val": 0.37,
+   "diff_val": -0.0681171018964703,
+   "kolbinger_test": 0.53,
+   "within_tolerance": false
+  },
+  "ureter": {
+   "seeds": 3,
+   "iou_image_mean": 0.26271674295848296,
+   "seed_sd": 0.026574302564712188,
+   "iou_by_surgery": {
+    "21": 0.2222940313737843,
+    "26": 0.16617118963325672,
+    "3": 0.37902777419311207
+   },
+   "images_by_surgery": {
+    "3": 85,
+    "21": 75,
+    "26": 71
+   },
+   "kolbinger_val": 0.22,
+   "diff_val": 0.04271674295848296,
+   "kolbinger_test": 0.29,
+   "within_tolerance": true
+  },
+  "vesicular_glands": {
+   "seeds": 3,
+   "iou_image_mean": 0.3392359733520373,
+   "seed_sd": 0.01718855699165669,
+   "iou_by_surgery": {
+    "21": 0.33191120302007127,
+    "26": 0.36977306596041487,
+    "3": 0.3138459120715602
+   },
+   "images_by_surgery": {
+    "3": 55,
+    "21": 72,
+    "26": 63
+   },
+   "kolbinger_val": 0.32,
+   "diff_val": 0.019235973352037306,
+   "kolbinger_test": 0.3,
+   "within_tolerance": true
+  }
+ }
+}

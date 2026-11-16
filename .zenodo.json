@@ -1,0 +1,11 @@
+{
+  "title": "One model, eleven structures: presence-supervised anatomy segmentation with risk-controlled hallucination on DSAD (code)",
+  "upload_type": "software",
+  "description": "Code, pre-registered protocol and summary results for presence-supervised single-model anatomy segmentation on the Dresden Surgical Anatomy Dataset, with Learn-then-Test risk control of structure hallucination. Checkpoints and per-image results are in a separate Zenodo dataset record.",
+  "creators": [
+    {"name": "Fernández Guirao, Álvaro", "affiliation": "ARTEC, Universitat de València", "orcid": "0009-0007-4022-1288"}
+  ],
+  "license": "MIT",
+  "keywords": ["surgical data science", "semantic segmentation", "partial labels", "risk control", "DINOv2", "DSAD"],
+  "access_right": "open"
+}

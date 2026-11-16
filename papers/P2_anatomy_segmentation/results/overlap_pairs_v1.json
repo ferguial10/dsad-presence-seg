@@ -1,0 +1,55 @@
+{
+ "rule": {
+  "min_cover_of_smaller_mask": 0.01,
+  "min_fraction_of_frames": 0.05
+ },
+ "split": "train",
+ "size_hw": [
+  512,
+  640
+ ],
+ "overlap_pairs": [],
+ "table": [
+  {
+   "pair": [
+    "abdominal_wall",
+    "colon"
+   ],
+   "frames_both_masked": 1,
+   "fraction_frames_cover_ge_1pct": 0.0,
+   "median_cover": 0.0,
+   "exempt": false
+  },
+  {
+   "pair": [
+    "inferior_mesenteric_artery",
+    "small_intestine"
+   ],
+   "frames_both_masked": 1,
+   "fraction_frames_cover_ge_1pct": 0.0,
+   "median_cover": 0.0,
+   "exempt": false
+  },
+  {
+   "pair": [
+    "liver",
+    "stomach"
+   ],
+   "frames_both_masked": 21,
+   "fraction_frames_cover_ge_1pct": 0.0,
+   "median_cover": 0.0,
+   "exempt": false
+  },
+  {
+   "pair": [
+    "pancreas",
+    "stomach"
+   ],
+   "frames_both_masked": 1,
+   "fraction_frames_cover_ge_1pct": 0.0,
+   "median_cover": 0.0,
+   "exempt": false
+  }
+ ],
+ "test_accessed": false
+}

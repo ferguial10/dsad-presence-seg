@@ -1,0 +1,10 @@
+A5p cholecseg8k data/CholecSeg8k papers/P2_anatomy_segmentation/results/a5p_calibration_v1.json runs/p2/A5p_seed*
+A1 cholecseg8k data/CholecSeg8k - runs/p2/A1_*_seed*
+A1N cholecseg8k data/CholecSeg8k - runs/p2/A1N_*_seed*
+A2 cholecseg8k data/CholecSeg8k - runs/p2/A2_seed*
+A4 cholecseg8k data/CholecSeg8k - runs/p2/A4_seed*
+A5p endovis18 data/endovis2018_anatomy_development_manifest_v1.json papers/P2_anatomy_segmentation/results/a5p_calibration_v1.json runs/p2/A5p_seed*
+A1 endovis18 data/endovis2018_anatomy_development_manifest_v1.json - runs/p2/A1_*_seed*
+A1N endovis18 data/endovis2018_anatomy_development_manifest_v1.json - runs/p2/A1N_*_seed*
+A2 endovis18 data/endovis2018_anatomy_development_manifest_v1.json - runs/p2/A2_seed*
+A4 endovis18 data/endovis2018_anatomy_development_manifest_v1.json - runs/p2/A4_seed*

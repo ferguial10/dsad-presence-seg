@@ -1,0 +1,110 @@
+{
+ "arm": "AB_nolora",
+ "alpha": 0.05,
+ "delta": 0.1,
+ "source": "papers/P2_anatomy_segmentation/results/ab_nolora_val_native_v1.json",
+ "test_accessed": false,
+ "seeds": {
+  "11": {
+   "abdominal_wall": {
+    "lambda": 0.475,
+    "n_calibration": 850,
+    "alpha": 0.05,
+    "delta": 0.1,
+    "thresholds_tested": 108,
+    "calibration_risk": 0.03529411764705882,
+    "score": "presence_probability"
+   },
+   "colon": {
+    "lambda": 0.845,
+    "n_calibration": 955,
+    "alpha": 0.05,
+    "delta": 0.1,
+    "thresholds_tested": 34,
+    "calibration_risk": 0.03664921465968586,
+    "score": "presence_probability"
+   },
+   "inferior_mesenteric_artery": {
+    "lambda": 0.0,
+    "n_calibration": 1528,
+    "alpha": 0.05,
+    "delta": 0.1,
+    "thresholds_tested": 202,
+    "calibration_risk": 0.020287958115183247,
+    "score": "presence_probability"
+   },
+   "intestinal_veins": {
+    "lambda": 0.035,
+    "n_calibration": 1523,
+    "alpha": 0.05,
+    "delta": 0.1,
+    "thresholds_tested": 196,
+    "calibration_risk": 0.038739330269205514,
+    "score": "presence_probability"
+   },
+   "liver": {
+    "lambda": 0.0,
+    "n_calibration": 1542,
+    "alpha": 0.05,
+    "delta": 0.1,
+    "thresholds_tested": 202,
+    "calibration_risk": 0.029182879377431907,
+    "score": "presence_probability"
+   },
+   "pancreas": {
+    "lambda": 0.005,
+    "n_calibration": 1603,
+    "alpha": 0.05,
+    "delta": 0.1,
+    "thresholds_tested": 202,
+    "calibration_risk": 0.0330630068621335,
+    "score": "presence_probability"
+   },
+   "small_intestine": {
+    "lambda": 0.685,
+    "n_calibration": 1105,
+    "alpha": 0.05,
+    "delta": 0.1,
+    "thresholds_tested": 66,
+    "calibration_risk": 0.03800904977375565,
+    "score": "presence_probability"
+   },
+   "spleen": {
+    "lambda": 0.0,
+    "n_calibration": 1581,
+    "alpha": 0.05,
+    "delta": 0.1,
+    "thresholds_tested": 202,
+    "calibration_risk": 0.018975332068311195,
+    "score": "presence_probability"
+   },
+   "stomach": {
+    "lambda": 0.015,
+    "n_calibration": 1470,
+    "alpha": 0.05,
+    "delta": 0.1,
+    "thresholds_tested": 200,
+    "calibration_risk": 0.03741496598639456,
+    "score": "presence_probability"
+   },
+   "ureter": {
+    "lambda": 0.0,
+    "n_calibration": 1532,
+    "alpha": 0.05,
+    "delta": 0.1,
+    "thresholds_tested": 202,
+    "calibration_risk": 0.006527415143603133,
+    "score": "presence_probability"
+   },
+   "vesicular_glands": {
+    "lambda": 0.0,
+    "n_calibration": 1780,
+    "alpha": 0.05,
+    "delta": 0.1,
+    "thresholds_tested": 202,
+    "calibration_risk": 0.0028089887640449437,
+    "score": "presence_probability"
+   }
+  }
+ }
+}

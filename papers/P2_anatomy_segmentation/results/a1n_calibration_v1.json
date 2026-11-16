@@ -1,0 +1,312 @@
+{
+ "arm": "A1N",
+ "alpha": 0.05,
+ "delta": 0.1,
+ "source": "papers/P2_anatomy_segmentation/results/a1n_val_native_v1.json",
+ "test_accessed": false,
+ "seeds": {
+  "11": {
+   "abdominal_wall": {
+    "lambda": 0.0716582973086631,
+    "n_calibration": 850,
+    "alpha": 0.05,
+    "delta": 0.1,
+    "thresholds_tested": 102,
+    "calibration_risk": 0.03529411764705882,
+    "score": "area_fraction"
+   },
+   "colon": {
+    "lambda": 0.10971699930718024,
+    "n_calibration": 955,
+    "alpha": 0.05,
+    "delta": 0.1,
+    "thresholds_tested": 86,
+    "calibration_risk": 0.0356020942408377,
+    "score": "area_fraction"
+   },
+   "inferior_mesenteric_artery": {
+    "lambda": 0.0067013548787726125,
+    "n_calibration": 1528,
+    "alpha": 0.05,
+    "delta": 0.1,
+    "thresholds_tested": 191,
+    "calibration_risk": 0.03861256544502618,
+    "score": "area_fraction"
+   },
+   "intestinal_veins": {
+    "lambda": 0.008292134457272912,
+    "n_calibration": 1523,
+    "alpha": 0.05,
+    "delta": 0.1,
+    "thresholds_tested": 183,
+    "calibration_risk": 0.038739330269205514,
+    "score": "area_fraction"
+   },
+   "liver": {
+    "lambda": 0.01269620050536239,
+    "n_calibration": 1542,
+    "alpha": 0.05,
+    "delta": 0.1,
+    "thresholds_tested": 167,
+    "calibration_risk": 0.03631647211413749,
+    "score": "area_fraction"
+   },
+   "pancreas": {
+    "lambda": 0.004999999999999999,
+    "n_calibration": 1603,
+    "alpha": 0.05,
+    "delta": 0.1,
+    "thresholds_tested": 201,
+    "calibration_risk": 0.01933873986275733,
+    "score": "area_fraction"
+   },
+   "small_intestine": {
+    "lambda": 0.06272658738438913,
+    "n_calibration": 1105,
+    "alpha": 0.05,
+    "delta": 0.1,
+    "thresholds_tested": 107,
+    "calibration_risk": 0.037104072398190045,
+    "score": "area_fraction"
+   },
+   "spleen": {
+    "lambda": 0.004999999999999999,
+    "n_calibration": 1581,
+    "alpha": 0.05,
+    "delta": 0.1,
+    "thresholds_tested": 201,
+    "calibration_risk": 0.011385199240986717,
+    "score": "area_fraction"
+   },
+   "stomach": {
+    "lambda": 0.05490815317510664,
+    "n_calibration": 1470,
+    "alpha": 0.05,
+    "delta": 0.1,
+    "thresholds_tested": 112,
+    "calibration_risk": 0.0380952380952381,
+    "score": "area_fraction"
+   },
+   "ureter": {
+    "lambda": 0.006882172944594807,
+    "n_calibration": 1532,
+    "alpha": 0.05,
+    "delta": 0.1,
+    "thresholds_tested": 190,
+    "calibration_risk": 0.03981723237597911,
+    "score": "area_fraction"
+   },
+   "vesicular_glands": {
+    "lambda": 0.004999999999999999,
+    "n_calibration": 1780,
+    "alpha": 0.05,
+    "delta": 0.1,
+    "thresholds_tested": 201,
+    "calibration_risk": 0.020786516853932586,
+    "score": "area_fraction"
+   }
+  },
+  "23": {
+   "abdominal_wall": {
+    "lambda": 0.0716582973086631,
+    "n_calibration": 850,
+    "alpha": 0.05,
+    "delta": 0.1,
+    "thresholds_tested": 102,
+    "calibration_risk": 0.03529411764705882,
+    "score": "area_fraction"
+   },
+   "colon": {
+    "lambda": 0.11571771544549989,
+    "n_calibration": 955,
+    "alpha": 0.05,
+    "delta": 0.1,
+    "thresholds_tested": 84,
+    "calibration_risk": 0.03455497382198953,
+    "score": "area_fraction"
+   },
+   "inferior_mesenteric_artery": {
+    "lambda": 0.004999999999999999,
+    "n_calibration": 1528,
+    "alpha": 0.05,
+    "delta": 0.1,
+    "thresholds_tested": 201,
+    "calibration_risk": 0.01112565445026178,
+    "score": "area_fraction"
+   },
+   "intestinal_veins": {
+    "lambda": 0.007655568400863749,
+    "n_calibration": 1523,
+    "alpha": 0.05,
+    "delta": 0.1,
+    "thresholds_tested": 186,
+    "calibration_risk": 0.03939592908732764,
+    "score": "area_fraction"
+   },
+   "liver": {
+    "lambda": 0.004999999999999999,
+    "n_calibration": 1542,
+    "alpha": 0.05,
+    "delta": 0.1,
+    "thresholds_tested": 201,
+    "calibration_risk": 0.016861219195849545,
+    "score": "area_fraction"
+   },
+   "pancreas": {
+    "lambda": 0.004999999999999999,
+    "n_calibration": 1603,
+    "alpha": 0.05,
+    "delta": 0.1,
+    "thresholds_tested": 201,
+    "calibration_risk": 0.007485963817841547,
+    "score": "area_fraction"
+   },
+   "small_intestine": {
+    "lambda": 0.09351819859613737,
+    "n_calibration": 1105,
+    "alpha": 0.05,
+    "delta": 0.1,
+    "thresholds_tested": 92,
+    "calibration_risk": 0.037104072398190045,
+    "score": "area_fraction"
+   },
+   "spleen": {
+    "lambda": 0.004999999999999999,
+    "n_calibration": 1581,
+    "alpha": 0.05,
+    "delta": 0.1,
+    "thresholds_tested": 201,
+    "calibration_risk": 0.006325110689437065,
+    "score": "area_fraction"
+   },
+   "stomach": {
+    "lambda": 0.017016349039697124,
+    "n_calibration": 1470,
+    "alpha": 0.05,
+    "delta": 0.1,
+    "thresholds_tested": 156,
+    "calibration_risk": 0.03877551020408163,
+    "score": "area_fraction"
+   },
+   "ureter": {
+    "lambda": 0.006882172944594807,
+    "n_calibration": 1532,
+    "alpha": 0.05,
+    "delta": 0.1,
+    "thresholds_tested": 190,
+    "calibration_risk": 0.0391644908616188,
+    "score": "area_fraction"
+   },
+   "vesicular_glands": {
+    "lambda": 0.011413580682957185,
+    "n_calibration": 1780,
+    "alpha": 0.05,
+    "delta": 0.1,
+    "thresholds_tested": 171,
+    "calibration_risk": 0.04044943820224719,
+    "score": "area_fraction"
+   }
+  },
+  "37": {
+   "abdominal_wall": {
+    "lambda": 0.12204662679878228,
+    "n_calibration": 850,
+    "alpha": 0.05,
+    "delta": 0.1,
+    "thresholds_tested": 82,
+    "calibration_risk": 0.03529411764705882,
+    "score": "area_fraction"
+   },
+   "colon": {
+    "lambda": 0.06441909590119659,
+    "n_calibration": 955,
+    "alpha": 0.05,
+    "delta": 0.1,
+    "thresholds_tested": 106,
+    "calibration_risk": 0.03664921465968586,
+    "score": "area_fraction"
+   },
+   "inferior_mesenteric_artery": {
+    "lambda": 0.004999999999999999,
+    "n_calibration": 1528,
+    "alpha": 0.05,
+    "delta": 0.1,
+    "thresholds_tested": 201,
+    "calibration_risk": 0.0058900523560209425,
+    "score": "area_fraction"
+   },
+   "intestinal_veins": {
+    "lambda": 0.006882172944594807,
+    "n_calibration": 1523,
+    "alpha": 0.05,
+    "delta": 0.1,
+    "thresholds_tested": 190,
+    "calibration_risk": 0.03939592908732764,
+    "score": "area_fraction"
+   },
+   "liver": {
+    "lambda": 0.004999999999999999,
+    "n_calibration": 1542,
+    "alpha": 0.05,
+    "delta": 0.1,
+    "thresholds_tested": 201,
+    "calibration_risk": 0.00648508430609598,
+    "score": "area_fraction"
+   },
+   "pancreas": {
+    "lambda": 0.005134911573176754,
+    "n_calibration": 1603,
+    "alpha": 0.05,
+    "delta": 0.1,
+    "thresholds_tested": 201,
+    "calibration_risk": 0.039301310043668124,
+    "score": "area_fraction"
+   },
+   "small_intestine": {
+    "lambda": 0.07761673662214691,
+    "n_calibration": 1105,
+    "alpha": 0.05,
+    "delta": 0.1,
+    "thresholds_tested": 99,
+    "calibration_risk": 0.03800904977375565,
+    "score": "area_fraction"
+   },
+   "spleen": {
+    "lambda": 0.004999999999999999,
+    "n_calibration": 1581,
+    "alpha": 0.05,
+    "delta": 0.1,
+    "thresholds_tested": 201,
+    "calibration_risk": 0.022137887413029727,
+    "score": "area_fraction"
+   },
+   "stomach": {
+    "lambda": 0.09863295899868238,
+    "n_calibration": 1470,
+    "alpha": 0.05,
+    "delta": 0.1,
+    "thresholds_tested": 90,
+    "calibration_risk": 0.03877551020408163,
+    "score": "area_fraction"
+   },
+   "ureter": {
+    "lambda": 0.0070678699003607634,
+    "n_calibration": 1532,
+    "alpha": 0.05,
+    "delta": 0.1,
+    "thresholds_tested": 189,
+    "calibration_risk": 0.03981723237597911,
+    "score": "area_fraction"
+   },
+   "vesicular_glands": {
+    "lambda": 0.008981631442249902,
+    "n_calibration": 1780,
+    "alpha": 0.05,
+    "delta": 0.1,
+    "thresholds_tested": 180,
+    "calibration_risk": 0.03876404494382023,
+    "score": "area_fraction"
+   }
+  }
+ }
+}

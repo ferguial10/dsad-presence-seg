@@ -1,0 +1,56 @@
+{
+ "rule": "max 3-seed mean val critical macro IoU; tie < 0.005 -> fewer trainable parameters",
+ "candidates": {
+  "A3": {
+   "model": "dinov2_base_frozen",
+   "seeds": [
+    0.40296260395208205,
+    0.39802019272932276,
+    0.4125118056956987
+   ],
+   "mean": 0.40449820079236787,
+   "trainable_parameters": 4404619,
+   "best_epochs": [
+    39,
+    19,
+    25
+   ]
+  },
+  "A4": {
+   "model": "dinov2_large_lora16",
+   "seeds": [
+    0.4983399290583742,
+    0.5077677241383929,
+    0.5129752320942268
+   ],
+   "mean": 0.5063609617636646,
+   "trainable_parameters": 6239627,
+   "best_epochs": [
+    25,
+    25,
+    27
+   ]
+  },
+  "C1": {
+   "model": "sam2_baseplus_lora16",
+   "seeds": [
+    0.37537332087664765,
+    0.40305756496137213,
+    0.39233461832816285
+   ],
+   "mean": 0.39025516805539423,
+   "trainable_parameters": 2871659,
+   "best_epochs": [
+    47,
+    47,
+    41
+   ]
+  }
+ },
+ "tied": [
+  "A4"
+ ],
+ "selected": "A4",
+ "a5_model": "dinov2_large_lora16_ph",
+ "test_accessed": false
+}

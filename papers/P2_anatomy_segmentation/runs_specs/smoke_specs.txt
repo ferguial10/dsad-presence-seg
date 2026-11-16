@@ -1,0 +1,2 @@
+smoke_ureter --structures ureter --loss bce --scheduler step09 --epochs 2 --val-every 1 --seed 11
+smoke_all --structures all --use-absent --epochs 1 --val-every 1 --seed 11

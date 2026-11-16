@@ -1,0 +1,29 @@
+name: davinci
+channels: [conda-forge]
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - --extra-index-url https://download.pytorch.org/whl/cu124
+      - torch==2.6.0
+      - torchvision==0.21.0
+      - xformers==0.0.29.post3
+      - timm
+      - transformers
+      - segmentation-models-pytorch
+      - monai
+      - albumentations
+      - opencv-python-headless
+      - einops
+      - numpy<2.3
+      - scipy
+      - scikit-image
+      - scikit-learn
+      - pandas
+      - pyyaml
+      - matplotlib
+      - tensorboard
+      - tqdm
+      - h5py
+      - imageio[ffmpeg]
+      - pytest

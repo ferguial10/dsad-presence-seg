@@ -1,0 +1,690 @@
+{
+ "split": "cv_heldout",
+ "arms": {
+  "A1": {
+   "op": "default",
+   "summary": {
+    "halluc": {
+     "abdominal_wall": 0.6730111024299622,
+     "colon": 0.4904776128224773,
+     "inferior_mesenteric_artery": 0.3504830936378537,
+     "intestinal_veins": 0.14679592259105942,
+     "liver": 0.20637234021465864,
+     "pancreas": 0.09601255764973071,
+     "small_intestine": 0.5879752321298933,
+     "spleen": 0.08949668540247173,
+     "stomach": 0.46960725777607293,
+     "ureter": 0.06324002064242969,
+     "vesicular_glands": 0.12454065224239817
+    },
+    "iou": {
+     "abdominal_wall": 0.8533524706546184,
+     "colon": 0.7591265297447722,
+     "inferior_mesenteric_artery": 0.43770691293608355,
+     "intestinal_veins": 0.4594123679217277,
+     "liver": 0.7226450424344535,
+     "pancreas": 0.4191586926527687,
+     "small_intestine": 0.8515598669581796,
+     "spleen": 0.6567966101233973,
+     "stomach": 0.591239802901659,
+     "ureter": 0.2938946352250519,
+     "vesicular_glands": 0.38773846834201614
+    },
+    "dice": {
+     "abdominal_wall": 0.9136189510625257,
+     "colon": 0.84226646794429,
+     "inferior_mesenteric_artery": 0.5683006176005234,
+     "intestinal_veins": 0.5626408079954353,
+     "liver": 0.7935116377312361,
+     "pancreas": 0.5232577814427906,
+     "small_intestine": 0.9107976235055311,
+     "spleen": 0.7201319050216167,
+     "stomach": 0.6659930435841322,
+     "ureter": 0.37720317280123494,
+     "vesicular_glands": 0.49550469041382117
+    },
+    "miss": {
+     "abdominal_wall": 0.0,
+     "colon": 0.016365739574480107,
+     "inferior_mesenteric_artery": 0.11512036928835198,
+     "intestinal_veins": 0.4768423197333675,
+     "liver": 0.05574483079149998,
+     "pancreas": 0.37526506282914257,
+     "small_intestine": 0.002605065014511552,
+     "spleen": 0.3035362957411972,
+     "stomach": 0.1453760705813718,
+     "ureter": 0.5945514110781664,
+     "vesicular_glands": 0.28662183790017837
+    },
+    "cldice": {
+     "inferior_mesenteric_artery": 0.6165464113830159,
+     "intestinal_veins": 0.6051143432225542,
+     "ureter": 0.42441705739855784
+    },
+    "nsd": {
+     "inferior_mesenteric_artery": 0.39374807980295407,
+     "intestinal_veins": 0.5581749785171743,
+     "ureter": 0.3526749324817
+    },
+    "hd95": {
+     "inferior_mesenteric_artery": 188.39516564694702,
+     "intestinal_veins": 164.64647886995803,
+     "ureter": 210.41939836148126
+    },
+    "critical_macro_iou": 0.402543152183908,
+    "macro_iou": 0.5847846727177025,
+    "hallucination_macro": 0.29981931613990975
+   }
+  },
+  "A5p": {
+   "op": "calibrated:papers/P2_anatomy_segmentation/results/cv/cv_a5p_calibration_merged_v1.json",
+   "summary": {
+    "halluc": {
+     "abdominal_wall": 0.047229592146786174,
+     "colon": 0.028422685614420812,
+     "inferior_mesenteric_artery": 0.017707995371249955,
+     "intestinal_veins": 0.012525518226369898,
+     "liver": 0.010557125226403655,
+     "pancreas": 0.0069286055214411975,
+     "small_intestine": 0.03574243314857514,
+     "spleen": 0.008814522675394,
+     "stomach": 0.02661492447021825,
+     "ureter": 0.007270699640817936,
+     "vesicular_glands": 0.005397570901797034
+    },
+    "iou": {
+     "abdominal_wall": 0.856540663317771,
+     "colon": 0.6572420175035578,
+     "inferior_mesenteric_artery": 0.5004185600789103,
+     "intestinal_veins": 0.5196566295602342,
+     "liver": 0.792489966803158,
+     "pancreas": 0.4940871445652021,
+     "small_intestine": 0.7355661229131534,
+     "spleen": 0.7496315713460295,
+     "stomach": 0.6268432058967197,
+     "ureter": 0.3682758676106496,
+     "vesicular_glands": 0.45094908676224915
+    },
+    "dice": {
+     "abdominal_wall": 0.9117972657857801,
+     "colon": 0.7197173195522736,
+     "inferior_mesenteric_artery": 0.6209676501249548,
+     "intestinal_veins": 0.6341889434410797,
+     "liver": 0.8579305528669756,
+     "pancreas": 0.6018370238097145,
+     "small_intestine": 0.7751654816216421,
+     "spleen": 0.8165232857160492,
+     "stomach": 0.6913561957867543,
+     "ureter": 0.46588206463456183,
+     "vesicular_glands": 0.5654477637397932
+    },
+    "miss": {
+     "abdominal_wall": 0.011860690220908748,
+     "colon": 0.18046137437237836,
+     "inferior_mesenteric_artery": 0.18481589701960138,
+     "intestinal_veins": 0.41635231946740026,
+     "liver": 0.07595000813715413,
+     "pancreas": 0.3258708935826288,
+     "small_intestine": 0.1710577625739099,
+     "spleen": 0.24530940923389247,
+     "stomach": 0.22324330305247103,
+     "ureter": 0.5512939716186536,
+     "vesicular_glands": 0.29711179593286585
+    },
+    "cldice": {
+     "inferior_mesenteric_artery": 0.6735084936015301,
+     "intestinal_veins": 0.684277357365884,
+     "ureter": 0.5143847791420795
+    },
+    "nsd": {
+     "inferior_mesenteric_artery": 0.48583011570665163,
+     "intestinal_veins": 0.6274226524051213,
+     "ureter": 0.4378895675419205
+    },
+    "hd95": {
+     "inferior_mesenteric_artery": 120.57875728024638,
+     "intestinal_veins": 119.07070250902007,
+     "ureter": 164.69464495071261
+    },
+    "critical_macro_iou": 0.47060955045374897,
+    "macro_iou": 0.6137909851234213,
+    "hallucination_macro": 0.0188374248130431
+   }
+  },
+  "A5p_gate": {
+   "op": "gate0.5",
+   "summary": {
+    "halluc": {
+     "abdominal_wall": 0.05455292774602195,
+     "colon": 0.06331086299408295,
+     "inferior_mesenteric_artery": 0.005854907448973336,
+     "intestinal_veins": 0.005723064164292786,
+     "liver": 0.004475930796633944,
+     "pancreas": 0.0024395332381368837,
+     "small_intestine": 0.039531939570913034,
+     "spleen": 0.003352054923353733,
+     "stomach": 0.01556884264925737,
+     "ureter": 0.0031596543262947504,
+     "vesicular_glands": 0.0006505483997145234
+    },
+    "iou": {
+     "abdominal_wall": 0.8555384116870742,
+     "colon": 0.7557475690750164,
+     "inferior_mesenteric_artery": 0.4059894318353465,
+     "intestinal_veins": 0.4386967622899246,
+     "liver": 0.7739030461324543,
+     "pancreas": 0.47586050756811604,
+     "small_intestine": 0.8420593384547662,
+     "spleen": 0.7205493706280586,
+     "stomach": 0.5951426878835906,
+     "ureter": 0.34352032805405686,
+     "vesicular_glands": 0.45094908676224915
+    },
+    "dice": {
+     "abdominal_wall": 0.9111648141374089,
+     "colon": 0.8304038467834972,
+     "inferior_mesenteric_artery": 0.5022942924362955,
+     "intestinal_veins": 0.526573094707701,
+     "liver": 0.8353927441313236,
+     "pancreas": 0.5779729306389529,
+     "small_intestine": 0.8904137254386308,
+     "spleen": 0.7799774618568758,
+     "stomach": 0.653755751170948,
+     "ureter": 0.4323420215537027,
+     "vesicular_glands": 0.5654477637397932
+    },
+    "miss": {
+     "abdominal_wall": 0.01135808080388072,
+     "colon": 0.05102794941384323,
+     "inferior_mesenteric_artery": 0.3292130287390699,
+     "intestinal_veins": 0.48681136434666483,
+     "liver": 0.10417317859677037,
+     "pancreas": 0.35375135805578706,
+     "small_intestine": 0.04087741948863187,
+     "spleen": 0.2655902063283191,
+     "stomach": 0.2725960361971245,
+     "ureter": 0.5678089794471687,
+     "vesicular_glands": 0.29711179593286585
+    },
+    "cldice": {
+     "inferior_mesenteric_artery": 0.5423140578481117,
+     "intestinal_veins": 0.5669811304263013,
+     "ureter": 0.4757045947494971
+    },
+    "nsd": {
+     "inferior_mesenteric_artery": 0.38375149320463325,
+     "intestinal_veins": 0.5170853377602312,
+     "ureter": 0.40073872760292206
+    },
+    "hd95": {
+     "inferior_mesenteric_artery": 132.8993558534166,
+     "intestinal_veins": 106.8221470234386,
+     "ureter": 157.75060363079427
+    },
+    "critical_macro_iou": 0.41601675743686095,
+    "macro_iou": 0.6052687763973322,
+    "hallucination_macro": 0.018056387841606843
+   }
+  },
+  "A5p_ungated": {
+   "op": "ungated",
+   "summary": {
+    "halluc": {
+     "abdominal_wall": 0.07168558037822433,
+     "colon": 0.0840179158268688,
+     "inferior_mesenteric_artery": 0.018241338171206677,
+     "intestinal_veins": 0.012525518226369898,
+     "liver": 0.010557125226403655,
+     "pancreas": 0.0069286055214411975,
+     "small_intestine": 0.05545291413352736,
+     "spleen": 0.008814522675394,
+     "stomach": 0.028056510126814833,
+     "ureter": 0.007270699640817936,
+     "vesicular_glands": 0.005397570901797034
+    },
+    "iou": {
+     "abdominal_wall": 0.8584074357273996,
+     "colon": 0.7722075281844658,
+     "inferior_mesenteric_artery": 0.5057342007659806,
+     "intestinal_veins": 0.5196566295602342,
+     "liver": 0.792489966803158,
+     "pancreas": 0.4940871445652021,
+     "small_intestine": 0.8476689042545777,
+     "spleen": 0.7496315713460295,
+     "stomach": 0.6320973337697001,
+     "ureter": 0.3682758676106496,
+     "vesicular_glands": 0.45094908676224915
+    },
+    "dice": {
+     "abdominal_wall": 0.914291961479137,
+     "colon": 0.8490733126601834,
+     "inferior_mesenteric_artery": 0.6284397848023278,
+     "intestinal_veins": 0.6341889434410797,
+     "liver": 0.8579305528669756,
+     "pancreas": 0.6018370238097145,
+     "small_intestine": 0.8975063304747725,
+     "spleen": 0.8165232857160492,
+     "stomach": 0.6975696224480444,
+     "ureter": 0.46588206463456183,
+     "vesicular_glands": 0.5654477637397932
+    },
+    "miss": {
+     "abdominal_wall": 0.007414502241873668,
+     "colon": 0.02756422408638136,
+     "inferior_mesenteric_artery": 0.1769054960170951,
+     "intestinal_veins": 0.41635231946740026,
+     "liver": 0.07595000813715413,
+     "pancreas": 0.3258708935826288,
+     "small_intestine": 0.029685679634795598,
+     "spleen": 0.24530940923389247,
+     "stomach": 0.21616225249315965,
+     "ureter": 0.5512939716186536,
+     "vesicular_glands": 0.29711179593286585
+    },
+    "cldice": {
+     "inferior_mesenteric_artery": 0.6828620740789674,
+     "intestinal_veins": 0.684277357365884,
+     "ureter": 0.5143847791420795
+    },
+    "nsd": {
+     "inferior_mesenteric_artery": 0.4923898371596878,
+     "intestinal_veins": 0.6274226524051213,
+     "ureter": 0.4378895675419205
+    },
+    "hd95": {
+     "inferior_mesenteric_artery": 122.76069559101158,
+     "intestinal_veins": 119.07070250902007,
+     "ureter": 164.69464495071261
+    },
+    "critical_macro_iou": 0.4719384606255166,
+    "macro_iou": 0.6355641517590588,
+    "hallucination_macro": 0.028086209166260513
+   }
+  },
+  "A1_cal": {
+   "op": "calibrated:papers/P2_anatomy_segmentation/results/cv/cv_a1_calibration_merged_v1.json",
+   "summary": {
+    "halluc": {
+     "abdominal_wall": 0.07314916696270128,
+     "colon": 0.054589980465737896,
+     "inferior_mesenteric_artery": 0.039654129158651324,
+     "intestinal_veins": 0.05330284377795791,
+     "liver": 0.03707883350395926,
+     "pancreas": 0.045007498709792745,
+     "small_intestine": 0.05618128927812255,
+     "spleen": 0.03680990480460697,
+     "stomach": 0.031767787224950175,
+     "ureter": 0.042496579791948624,
+     "vesicular_glands": 0.03043181428843171
+    },
+    "iou": {
+     "abdominal_wall": 0.5392515517117353,
+     "colon": 0.1795411589915099,
+     "inferior_mesenteric_artery": 0.15146960506198018,
+     "intestinal_veins": 0.1191783258234886,
+     "liver": 0.4852237597620489,
+     "pancreas": 0.24786061707627285,
+     "small_intestine": 0.14273311777205366,
+     "spleen": 0.31889980753874686,
+     "stomach": 0.049445061070582226,
+     "ureter": 0.17665468956143676,
+     "vesicular_glands": 0.1868800725923812
+    },
+    "dice": {
+     "abdominal_wall": 0.5726863321928859,
+     "colon": 0.19462471952184918,
+     "inferior_mesenteric_artery": 0.19180167195049266,
+     "intestinal_veins": 0.13744824506713668,
+     "liver": 0.5183073606520464,
+     "pancreas": 0.3009644850205594,
+     "small_intestine": 0.1519283736085891,
+     "spleen": 0.3395519210250695,
+     "stomach": 0.052793735493760506,
+     "ureter": 0.21883004958368954,
+     "vesicular_glands": 0.23731390227511642
+    },
+    "miss": {
+     "abdominal_wall": 0.3816382662541094,
+     "colon": 0.7830659929874547,
+     "inferior_mesenteric_artery": 0.7185280218350912,
+     "intestinal_veins": 0.8308860059568968,
+     "liver": 0.42002306052776517,
+     "pancreas": 0.5794780541537647,
+     "small_intestine": 0.8341944395699205,
+     "spleen": 0.6231789901834365,
+     "stomach": 0.9414453132749914,
+     "ureter": 0.675708112252245,
+     "vesicular_glands": 0.6207331384642536
+    },
+    "cldice": {
+     "inferior_mesenteric_artery": 0.20479746881846358,
+     "intestinal_veins": 0.1429245310887567,
+     "ureter": 0.241080665671008
+    },
+    "nsd": {
+     "inferior_mesenteric_artery": 0.12509719211154807,
+     "intestinal_veins": 0.12393316055966859,
+     "ureter": 0.19026364789776745
+    },
+    "hd95": {
+     "inferior_mesenteric_artery": 160.87345343328371,
+     "intestinal_veins": 152.39849729548635,
+     "ureter": 164.2615458507835
+    },
+    "critical_macro_iou": 0.1737908093807946,
+    "macro_iou": 0.23610343336020334,
+    "hallucination_macro": 0.0454972570878964
+   }
+  }
+ },
+ "secondary_descriptive": {
+  "critical_iou_A5p_minus_A1": {
+   "n": 29,
+   "mean_diff": 0.06346016790645684,
+   "ci95": [
+    0.03941345128418209,
+    0.08646195627697136
+   ],
+   "p_sign_flip": 1.999980000199998e-05,
+   "diffs": [
+    0.06696915304419526,
+    0.12675508686143072,
+    0.08050761544875207,
+    0.07894543642549501,
+    0.03539975377683596,
+    0.003747257427902384,
+    0.15057305545658062,
+    -0.05021824895022431,
+    0.019368670859606807,
+    0.24281671871065377,
+    0.10549138524792434,
+    0.05202244073624218,
+    0.07598399055221061,
+    0.04888802682697185,
+    0.07510966782724987,
+    0.1100982760938331,
+    0.05226077452944394,
+    0.06378015563225736,
+    0.04496039455824963,
+    0.08169796428401038,
+    0.14422983523036298,
+    0.07956551638153342,
+    0.009731810034197208,
+    0.07215714787992905,
+    0.03259587797723085,
+    -0.13612387467313602,
+    0.0918575284381587,
+    0.05037322250828569,
+    0.030800230161065145
+   ],
+   "surgeries": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    14,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31
+   ]
+  },
+  "hallucination_A1_minus_A5p": {
+   "n": 32,
+   "mean_diff": 0.27989014810064816,
+   "ci95": [
+    0.2629047324272517,
+    0.2973764310282098
+   ],
+   "p_sign_flip": 9.99990000099999e-06,
+   "diffs": [
+    0.3224893512661006,
+    0.28612648663470286,
+    0.30081902667757404,
+    0.24500646607147164,
+    0.2949559051946581,
+    0.1957428206854195,
+    0.3772307116203954,
+    0.273432731958805,
+    0.3966270010855757,
+    0.2575228398305979,
+    0.2279471311546173,
+    0.26004820983737054,
+    0.2862317592135337,
+    0.3230346119905053,
+    0.29356941435206085,
+    0.24906412756295743,
+    0.19177532327425656,
+    0.2807897582322567,
+    0.2979642832400315,
+    0.25107874725420687,
+    0.27268760805746584,
+    0.2681601432505139,
+    0.2435106621625979,
+    0.33240915730576287,
+    0.31673360135740647,
+    0.2761799449904222,
+    0.22799686360739033,
+    0.32042040595058247,
+    0.2826841007457542,
+    0.28543763116531884,
+    0.357722884799766,
+    0.1610850286906625
+   ],
+   "surgeries": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32
+   ]
+  }
+ },
+ "rq5": {
+  "A5p": {
+   "abdominal_wall": {
+    "pooled_rate": 0.047229592146786174,
+    "surgeries_above_alpha": 7,
+    "n_surgeries": 31,
+    "miss_rate": 0.011860690220908748,
+    "iou": 0.856540663317771
+   },
+   "colon": {
+    "pooled_rate": 0.028422685614420812,
+    "surgeries_above_alpha": 5,
+    "n_surgeries": 32,
+    "miss_rate": 0.18046137437237836,
+    "iou": 0.6572420175035578
+   },
+   "inferior_mesenteric_artery": {
+    "pooled_rate": 0.017707995371249955,
+    "surgeries_above_alpha": 4,
+    "n_surgeries": 32,
+    "miss_rate": 0.18481589701960138,
+    "iou": 0.5004185600789103
+   },
+   "intestinal_veins": {
+    "pooled_rate": 0.012525518226369898,
+    "surgeries_above_alpha": 2,
+    "n_surgeries": 32,
+    "miss_rate": 0.41635231946740026,
+    "iou": 0.5196566295602342
+   },
+   "liver": {
+    "pooled_rate": 0.010557125226403655,
+    "surgeries_above_alpha": 2,
+    "n_surgeries": 32,
+    "miss_rate": 0.07595000813715413,
+    "iou": 0.792489966803158
+   },
+   "pancreas": {
+    "pooled_rate": 0.0069286055214411975,
+    "surgeries_above_alpha": 0,
+    "n_surgeries": 32,
+    "miss_rate": 0.3258708935826288,
+    "iou": 0.4940871445652021
+   },
+   "small_intestine": {
+    "pooled_rate": 0.03574243314857514,
+    "surgeries_above_alpha": 7,
+    "n_surgeries": 32,
+    "miss_rate": 0.1710577625739099,
+    "iou": 0.7355661229131534
+   },
+   "spleen": {
+    "pooled_rate": 0.008814522675394,
+    "surgeries_above_alpha": 1,
+    "n_surgeries": 31,
+    "miss_rate": 0.24530940923389247,
+    "iou": 0.7496315713460295
+   },
+   "stomach": {
+    "pooled_rate": 0.02661492447021825,
+    "surgeries_above_alpha": 4,
+    "n_surgeries": 32,
+    "miss_rate": 0.22324330305247103,
+    "iou": 0.6268432058967197
+   },
+   "ureter": {
+    "pooled_rate": 0.007270699640817936,
+    "surgeries_above_alpha": 1,
+    "n_surgeries": 32,
+    "miss_rate": 0.5512939716186536,
+    "iou": 0.3682758676106496
+   },
+   "vesicular_glands": {
+    "pooled_rate": 0.005397570901797034,
+    "surgeries_above_alpha": 0,
+    "n_surgeries": 32,
+    "miss_rate": 0.29711179593286585,
+    "iou": 0.45094908676224915
+   }
+  },
+  "A1_cal": {
+   "abdominal_wall": {
+    "pooled_rate": 0.07314916696270128,
+    "surgeries_above_alpha": 18,
+    "n_surgeries": 31,
+    "miss_rate": 0.3816382662541094,
+    "iou": 0.5392515517117353
+   },
+   "colon": {
+    "pooled_rate": 0.054589980465737896,
+    "surgeries_above_alpha": 10,
+    "n_surgeries": 32,
+    "miss_rate": 0.7830659929874547,
+    "iou": 0.1795411589915099
+   },
+   "inferior_mesenteric_artery": {
+    "pooled_rate": 0.039654129158651324,
+    "surgeries_above_alpha": 8,
+    "n_surgeries": 32,
+    "miss_rate": 0.7185280218350912,
+    "iou": 0.15146960506198018
+   },
+   "intestinal_veins": {
+    "pooled_rate": 0.05330284377795791,
+    "surgeries_above_alpha": 13,
+    "n_surgeries": 32,
+    "miss_rate": 0.8308860059568968,
+    "iou": 0.1191783258234886
+   },
+   "liver": {
+    "pooled_rate": 0.03707883350395926,
+    "surgeries_above_alpha": 11,
+    "n_surgeries": 32,
+    "miss_rate": 0.42002306052776517,
+    "iou": 0.4852237597620489
+   },
+   "pancreas": {
+    "pooled_rate": 0.045007498709792745,
+    "surgeries_above_alpha": 9,
+    "n_surgeries": 32,
+    "miss_rate": 0.5794780541537647,
+    "iou": 0.24786061707627285
+   },
+   "small_intestine": {
+    "pooled_rate": 0.05618128927812255,
+    "surgeries_above_alpha": 9,
+    "n_surgeries": 32,
+    "miss_rate": 0.8341944395699205,
+    "iou": 0.14273311777205366
+   },
+   "spleen": {
+    "pooled_rate": 0.03680990480460697,
+    "surgeries_above_alpha": 6,
+    "n_surgeries": 31,
+    "miss_rate": 0.6231789901834365,
+    "iou": 0.31889980753874686
+   },
+   "stomach": {
+    "pooled_rate": 0.031767787224950175,
+    "surgeries_above_alpha": 8,
+    "n_surgeries": 32,
+    "miss_rate": 0.9414453132749914,
+    "iou": 0.049445061070582226
+   },
+   "ureter": {
+    "pooled_rate": 0.042496579791948624,
+    "surgeries_above_alpha": 12,
+    "n_surgeries": 32,
+    "miss_rate": 0.675708112252245,
+    "iou": 0.17665468956143676
+   },
+   "vesicular_glands": {
+    "pooled_rate": 0.03043181428843171,
+    "surgeries_above_alpha": 7,
+    "n_surgeries": 32,
+    "miss_rate": 0.6207331384642536,
+    "iou": 0.1868800725923812
+   }
+  }
+ }
+}
