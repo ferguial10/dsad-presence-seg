@@ -1,5 +1,8 @@
 # One model, eleven structures
 
+[![Code DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24459545.svg)](https://doi.org/10.5281/zenodo.24459545)
+[![Data DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24459547.svg)](https://doi.org/10.5281/zenodo.24459547)
+
 Code, protocol and summary results for:
 
 > Á. Fernández Guirao. *One model, eleven structures: presence supervision lets a
@@ -72,7 +75,7 @@ python scripts/build_dsad_cache.py --manifest <manifest> --cache-root cache --si
 
 ## Checkpoints and full results (Zenodo)
 
-The Zenodo record (DOI below) contains:
+The Zenodo dataset record [doi:10.5281/zenodo.24459547](https://doi.org/10.5281/zenodo.24459547) contains (restricted access: request it on the Zenodo page, stating your affiliation and intended research use):
 
 - the frozen checkpoints of A5′ (3 seeds) and of the 33 A1 specialists (11
   structures × 3 seeds);
@@ -132,4 +135,4 @@ papers/P2_anatomy_segmentation/
 The code is released under the MIT licence (`LICENSE`). The checkpoints on Zenodo
 are released under CC BY 4.0 and were trained on DSAD (CC BY 4.0) from DINOv2
 (Apache 2.0). Not for clinical use. To cite this work, use `CITATION.cff` or
-the Zenodo DOI.
+the Zenodo DOI of the code, [doi:10.5281/zenodo.24459545](https://doi.org/10.5281/zenodo.24459545).

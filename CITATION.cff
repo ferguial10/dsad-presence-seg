@@ -4,6 +4,7 @@ title: "One model, eleven structures: presence-supervised anatomy segmentation w
 type: software
 license: MIT
 version: "1.0.0"
+doi: "10.5281/zenodo.24459545"
 date-released: "2026-11-16"
 repository-code: "https://github.com/ferguial10/dsad-presence-seg"
 keywords: [surgical data science, semantic segmentation, partial labels, risk control, DINOv2, DSAD]
